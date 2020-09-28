@@ -17,17 +17,20 @@ USE_WALLET:=1
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
  -I"$(CURDIR)"/obj \
- -I"$(DEPSDIR)/boost_1_55_0" \
+ -I"$(DEPSDIR)/boost_1_68_0" \
  -I"$(DEPSDIR)/db-6.0.20/build_unix" \
- -I"$(DEPSDIR)/openssl-1.0.1f/include" \
+ -I"$(DEPSDIR)/openssl-1.1.1g/include" \
  -I"$(DEPSDIR)"
 
 LIBPATHS= \
- -L"$(DEPSDIR)/boost_1_55_0/stage/lib" \
+ -L"$(DEPSDIR)/boost_1_68_0/stage/lib" \
  -L"$(DEPSDIR)/db-6.0.20/build_unix" \
- -L"$(DEPSDIR)/openssl-1.0.1f"
+ -L"$(DEPSDIR)/openssl-1.1.1g"
 
 LIBS= \
+ -l rt \
+ -l boost_chrono-mt \
+ -l boost_timer-mt \
  -l boost_system-mt \
  -l boost_filesystem-mt \
  -l boost_program_options-mt \

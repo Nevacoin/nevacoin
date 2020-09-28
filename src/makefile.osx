@@ -27,7 +27,10 @@ LIBS= -dead_strip
 ifdef STATIC
 # Build STATIC if you are redistributing the nevacoind binary
 LIBS += \
+ -l rt \
  $(DEPSDIR)/lib/db48/libdb_cxx-4.8.a \
+ $(DEPSDIR)/lib/libboost_chrono-mt.a \
+ $(DEPSDIR)/lib/libboost_timer-mt.a \
  $(DEPSDIR)/lib/libboost_system-mt.a \
  $(DEPSDIR)/lib/libboost_filesystem-mt.a \
  $(DEPSDIR)/lib/libboost_program_options-mt.a \
@@ -37,8 +40,10 @@ LIBS += \
  -lz
 else
 LIBS += \
+ -l rt \
  -ldb_cxx-4.8 \
- -lboost_system-mt \
+ -lboost_chrono-mt \
+ -lboost_timer-mt \
  -lboost_filesystem-mt \
  -lboost_program_options-mt \
  -lboost_thread-mt \
