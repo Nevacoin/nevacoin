@@ -47,6 +47,8 @@ Testnet RPC port: 13791
 
 NevaCoin blockchain snapshots/chain states/bootstrap.dat (pCloud: http://pc.cd/jjo )
 
+NevaCoin blockchain snapshots/chain states/bootstrap.dat (MS OneDrive https://1drv.ms/u/s!AklKAv1s6c88gQJCvxJLqUwOSBzE?e=xXftI8 )
+
 Responsible disclosure and security contact: security@nevacoin.net
 
 Exchanges and listing contact (digital currency exchange representatives should take note Neva is an open source network with no premine/instamine or any type of crowdfunding and no listing fee budget is awailable): listings@nevacoin.net
