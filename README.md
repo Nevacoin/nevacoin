@@ -45,9 +45,13 @@ RPC port: 3791
 Testnet P2P port: 17391
 Testnet RPC port: 13791
 
-NevaCoin blockchain snapshots/chain states/bootstrap.dat (pCloud: http://pc.cd/jjo )
+## Boostrap files / chain state
 
-NevaCoin blockchain snapshots/chain states/bootstrap.dat (MS OneDrive https://1drv.ms/u/s!AklKAv1s6c88gQJCvxJLqUwOSBzE?e=xXftI8 )
+* NevaCoin blockchain snapshots/chain states/bootstrap.dat (pCloud: http://pc.cd/jjo )
+
+* NevaCoin blockchain snapshots/chain states/bootstrap.dat (MS OneDrive https://1drv.ms/u/s!AklKAv1s6c88gQJCvxJLqUwOSBzE?e=xXftI8 )
+
+## Developer contacts
 
 Responsible disclosure and security contact: security@nevacoin.net
 
