@@ -88,15 +88,6 @@ public:
         vSeeds.push_back(CDNSSeedData("nevacoin.net", "n2.nevacoin.net"));
         vSeeds.push_back(CDNSSeedData("nevacoin.net", "n3.nevacoin.net"));
         vSeeds.push_back(CDNSSeedData("nevacoin.net", "n4.nevacoin.net"));
-        vSeeds.push_back(CDNSSeedData("crypto.si", "seed.crypto.si")); //tnx to @staysecure, ARCO dev
-        vSeeds.push_back(CDNSSeedData("bit-coin.pw", "node.bit-coin.pw")); 
-        vSeeds.push_back(CDNSSeedData("bit-coin.pw", "krile.bit-coin.pw"));
-        vSeeds.push_back(CDNSSeedData("chainworksindustries.com", "neva-seed01.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("chainworksindustries.com", "neva-seed02.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("chainworksindustries.com", "neva-seed03.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("chainworksindustries.com", "neva-seed04.chainworksindustries.com"));
-        vSeeds.push_back(CDNSSeedData("chainworksindustries.com", "neva-seed05.chainworksindustries.com"));
-
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,53);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
